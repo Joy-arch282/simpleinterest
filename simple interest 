@@ -1,0 +1,14 @@
+
+#include <stdio.h>
+
+int main() {
+    
+    double P = 20000.0; // principal amount
+    double R = 7.5; // 7.5 % interest rate
+    double T = 4; // For 4 years
+    
+    double interest = ( P * R * T ) / 100 ;
+    printf("interest is %0.2f ", interest);
+    
+    return 0;
+}
